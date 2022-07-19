@@ -1,0 +1,71 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": [""],
+            "responses": ["Maaf Saya tidak paham, tolong tanyakan seputar aplikasi ini"],
+            "context": [""]
+        },
+        {
+            "tag": "aplikasi",
+            "patterns": ["ini"],
+            "responses": ["ini merupakan aplikasi pendeteksi jaga jarak, untuk mengenali mana yang menjaga jarak dan mana yang tidak menjaga jarak."],
+            "context": [""]
+        },
+        {
+            "tag": "tujuan",
+            "patterns": ["tujuannya", "tujuan"],
+            "responses": ["Tujuan aplikasi ini adalah untuk  maka orang tersebut tidak menjaga jarak. Sebaliknya jika orang-orang terdeteksi berlabel warna hijau maka orang tersebut artinya menjaga jarak"],
+            "context": [""]
+        },
+        {
+            "tag": "Team",
+            "patterns": ["anggota", "anggotanya", "berangotakan", "siapa"],
+            "responses": ["Beranggotakan \n 1. M. Ade Noval Firmansyah \n 2. Akhmad Ali Husni Fauzan \n 3. Fikriyah Khairunnisa \n 4. Rizky Nafianto"],
+            "context": [""]
+        },
+        {
+            "tag": "jarak",
+            "patterns": ["pendeteksi jaga jarak", "physical distancing"],
+            "responses": ["pysical distancing adalah pembatasan jarak manusia secara fisik."],
+            "context": [""]
+        },
+        {
+            "tag": "algoritma",
+            "patterns": ["algoritma"],
+            "responses": ["Aplikasi ini mengunakan algoritma Support Vector Machine (SVM), Support Vector Machine (SVM) merupakan salah satu metode dalam supervised learning  yang biasanya digunakan untuk klasifikasi (seperti Support Vector Classification) dan regresi (Support Vector Regression). Dalam pemodelan klasifikasi, SVM memiliki konsep yang lebih matang dan lebih jelas secara matematis dibandingkan dengan teknik-teknik klasifikasi lainnya. SVM juga dapat mengatasi masalah klasifikasi dan regresi dengan linear maupun non linear"],
+            "context": [""]
+        },
+        {
+            "tag": "model",
+            "patterns": ["model", "training"],
+            "responses": ["Aplikasi ini mengunakan training/model TensorFlow, TensorFlow adalah pustaka perangkat lunak sumber terbuka dan gratis untuk pemelajaran mesin. Pustaka ini dapat digunakan untuk berbagai keperluan, tetapi memiliki fokus khusus pada pelatihan dan inferensi jaringan saraf dalam (Deep neural networks)."],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Pagi",
+            "patterns": ["Pagi","pagi"],
+            "responses": ["Selamat Pagi, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Siang",
+            "patterns": ["Siang","siang"],
+            "responses": ["Selamat Siang, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Sore",
+            "patterns": ["Sore","sore"],
+            "responses": ["Selamat Sore, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Malam",
+            "patterns": ["Malam","malam","Malem","malem"],
+            "responses": ["Selamat Malam, ada yang bisa saya bantu?"],
+            "context": [""]
+        }
+
+
+    ]
+}
